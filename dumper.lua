@@ -60,7 +60,7 @@ local credits = Drawing.new("Text")
 credits.Color = Color3.new(1, 1, 1)
 credits.Position = Vector2.new(viewPort.X - 100, viewPort.Y - 25)
 credits.Size = 15
-credits.Text = "turtle hub when?"
+credits.Text = "lol"
 credits.Color = Color3.new(1, 1, 1)
 credits.Visible = true
 
@@ -135,7 +135,7 @@ if scr.ClassName == "LocalScript" then
 final[#final + 1] = '<bool name="Disabled">' .. tostring(scr.Disabled) .. '</bool>'
 end
 final[#final + 1] = '<ProtectedString name="Source"><![CDATA['
-final[#final + 1] = "" -- haha funny stole from moon
+final[#final + 1] = "" 
 final[#final + 1] = ']]></ProtectedString>'
 needsDecompile[#needsDecompile + 1] = {Script = scr, Index = #final - 1}
 end
